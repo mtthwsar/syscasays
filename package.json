@@ -1,0 +1,26 @@
+{
+  "name": "syscasays",
+  "version": "0.0.1",
+  "description": "syscasays chat bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtthwsar/syscasays.git"
+  },
+  "keywords": [
+    "syscasays"
+  ],
+  "author": "Sysca Consulting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtthwsar/syscasays/issues"
+  },
+  "homepage": "https://github.com/mtthwsar/syscasays#readme",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "restify": "^4.3.0"
+  }
+}
