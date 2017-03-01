@@ -24,5 +24,5 @@ server.post('/api/messages', connector.listen());
 //=========================================================
 
 bot.dialog('/', function (session) {
-    session.send("syscasays <img src='' onerror=alert(1) alt='{{1==1}}'");
+    session.send("syscasays <img src='{{1==1}}' onerror={{2==2}}/>");
 });
